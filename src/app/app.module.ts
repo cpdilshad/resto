@@ -49,7 +49,7 @@ import { Stripe } from '@ionic-native/stripe';
     databaseURL: "****",
     projectId: "****",
     storageBucket: "",
-    messagingSenderId: "223792511271"
+    messagingSenderId: "*****"
     }),                                       
     AngularFireDatabaseModule,                
     AngularFireAuthModule,
