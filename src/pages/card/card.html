@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar color="mypink">
+    <ion-title><ion-icon name="ios-card"></ion-icon> Card Details </ion-title>
+
+</ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+<ion-item><ion-input [(ngModel)]="cardinfo.number" placeholder="card number"></ion-input></ion-item>
+<ion-item><ion-input [(ngModel)]="cardinfo.expMonth" placeholder="expiry month"></ion-input></ion-item>
+<ion-item><ion-input [(ngModel)]="cardinfo.expYear" placeholder="expiry year"></ion-input></ion-item>
+<ion-item><ion-input [(ngModel)]="cardinfo.cvc" placeholder="cvc"></ion-input></ion-item>
+<button ion-button icon-left block color="blue" (click)="pay()">
+  <ion-icon name="card"></ion-icon> Pay
+</button>
+</ion-content>

@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar color="mypink">
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="has-header" padding="true" style="background: url(http://www.vacation-key.com/photos/7/7/7768-10.jpg) center; background-size: cover;">
+    <ion-row>
+      <ion-col></ion-col>
+      <ion-col width-67>
+        <img src=""/>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+    <div >
+      <form  #registerForm="ngForm">
+        <ion-row>
+          <ion-col>
+            <ion-list inset>
+              
+              <ion-item>
+                <ion-input [(ngModel)]="email" type="text" placeholder="Email" name="email" required></ion-input>
+              </ion-item>
+              
+              <ion-item>
+                <ion-input [(ngModel)]="password" type="password" placeholder="Password" name="password" required [minlength]="6"></ion-input>
+              </ion-item>
+              
+            </ion-list>
+          </ion-col>
+        </ion-row>
+        
+        <ion-row>
+          <ion-col class="signup-col">
+            <button ion-button color="mypink" full (click)="login()" [disabled]="!registerForm.valid">Login</button>
+            <button ion-button block color="mypink" outline (click)="createAccount()" ><b>Create New Account</b></button>
+            
+          </ion-col>
+        </ion-row>
+        
+      </form>
+    </div>
+  </ion-content>
