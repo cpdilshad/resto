@@ -1,0 +1,137 @@
+{
+  "category" : {
+    "cat001" : "Starters",
+    "cat002" : "Biriyani",
+    "cat003" : "Appetizers"
+  },
+  "products" : {
+    "item1" : {
+      "available" : true,
+      "category" : "cat001",
+      "description" : "sweet vidalia onions, deep fried in beer batter, glazed with thyme honey",
+      "image" : "",
+      "name" : "Honey Glazed Onion Rings",
+      "price" : 30,
+      "stock" : 15
+    },
+    "item2" : {
+      "available" : true,
+      "category" : "cat001",
+      "description" : "with caramelized onions, roasted poblano guacamole, jicama salsa & chipotle",
+      "image" : "https://media.chefdehome.com/750/0/0/chicken-quesadilla/chilis-smoked-chicken-quesadilla.jpg",
+      "name" : "Smoked Chicken Quesadilla",
+      "price" : 35,
+      "stock" : 10
+    },
+    "item3" : {
+      "available" : true,
+      "category" : "cat001",
+      "description" : "with mango salsa, jalapeno-lime crème fraîche, guacamole & shredded cabbage",
+      "image" : "https://getinspiredeveryday.com/food/wp-content/uploads/sites/5/2015/04/Shrimp-Tacos-GI-365-10.jpg",
+      "name" : "Ancho Chile Shrimp Tacos",
+      "price" : 55,
+      "stock" : 20
+    },
+    "item4" : {
+      "available" : true,
+      "category" : "cat001",
+      "description" : "with house-made marinara and salad greens",
+      "image" : "http://thewoksoflife.com/wp-content/uploads/2015/01/fried-calamari-7.jpg",
+      "name" : "Fried Calamari",
+      "price" : 70,
+      "stock" : 10
+    },
+    "item5" : {
+      "available" : true,
+      "category" : "cat001",
+      "description" : "fresh mozzarella, heirloom tomatoes, fresh basil, egg, prosciutto, balsamic vinaigrette",
+      "image" : "https://www.landolakes.com/RecipeManagementSystem/media/Recipe-Media-Files/Recipes/Retail/x17/16556-marinated-antipasto-platter-600x600.jpg?ext=.jpg",
+      "name" : "Antipasto Platter",
+      "price" : 95,
+      "stock" : 15
+    },    
+    "item6" : {
+      "available" : true,
+      "category" : "cat002",
+      "description" : "Vegetable medley, topped with cashews and cilantro, served over basmati rice",
+      "image" : "https://indianhealthyrecipes.com/wp-content/uploads/2012/11/vegetable-biryani-in-pressure-cooker-recipe-0.jpg",
+      "name" : "Vegetable Biryani",
+      "price" : 110,
+      "stock" : 15
+    },
+    "item7" : {
+      "available" : true,
+      "category" : "cat002",
+      "description" : "Tender marinated chicken, topped with cashews and cilantro, served over basmati rice",
+      "image" : "https://cdn5.norecipes.com/wp-content/uploads/2017/05/05021751/chicken-biryani-12-1290x1934.jpg",
+      "name" : "Chicken Biryani",
+      "price" : 180,
+      "stock" : 20
+    },
+    "item8" : {
+      "available" : true,
+      "category" : "cat002",
+      "description" : "Seared scallops and shrimp, topped with cashews and cilantro, served over basmati rice",
+      "image" : "http://www.sanjeevkapoor.com/UploadFiles/RecipeImages/Seafood-Biryani.jpg",
+      "name" : "Seafood Biryani",
+      "price" : 200,
+      "stock" : 20
+    },
+    "item9" : {
+      "available" : true,
+      "category" : "cat002",
+      "description" : "Roasted eggplant, topped with cashews and cilantro, served over basmati rice",
+      "image" : "https://thumbs.dreamstime.com/b/eggplant-biryani-indian-food-made-rice-eggplant-aubergine-brinjal-vegetarian-version-popular-south-38455568.jpg",
+      "name" : "Eggplant Biryani",
+      "price" : 150,
+      "stock" : 8
+    },
+    "item10" : {
+      "available" : true,
+      "category" : "cat002",
+      "description" : "Homemade cheese and root vegetables, topped with cashews and cilantro, served over basmati rice",
+      "image" : "https://pull-revisfoodography.netdna-ssl.com/wp-content/uploads/2017/01/paneer-biryani-1.jpg",
+      "name" : "Paneer Biryani",
+      "price" : 130,
+      "stock" : 10
+    },
+    
+    "item11" : {
+      "available" : true,
+      "category" : "cat003",
+      "description" : "Tender, Spicy and Juicy. Original or Peri-Crusted",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/cart-final-8cb6b.appspot.com/o/3%20Chicken%20Wings.jpg?alt=media&token=95e819b0-bceb-40f3-b498-7e76b81e85a3",
+      "name" : "3 Chicken Wings",
+      "price" : 250,
+      "stock" : 20
+    },
+    "item12" : {
+      "available" : true,
+      "category" : "cat003",
+      "description" : "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+      "image" : "http://www.picknpay.co.za/picknpay/action/media/downloadFile?media_fileid=4444&a=597&s=450x260",
+      "name" : "Chicken Livers and Portuguese Roll",
+      "price" : 120,
+      "stock" : 25
+    },
+    "item13" : {
+      "available" : true,
+      "category" : "cat003",
+      "description" : "Co-Starring Garlic, Pepper and Chili",
+      "image" : "http://www.femalefirst.co.uk/image-library/land/1000/n/nandos-spicy-mixed-olives.jpg",
+      "name" : "Spicy Mixed Olives",
+      "price" : 95,
+      "stock" :23
+    },
+    "item14" : {
+      "available" : true,
+      "category" : "cat003",
+      "description" : "Pour Smoky PERi-PERi Oil Over Creamy Hummus and Dig in with Strips Of Warm Pita",
+      "image" : "https://media-cdn.tripadvisor.com/media/photo-s/07/b5/cd/44/hummus-with-peri-peri.jpg",
+      "name" : "Hummus with PERI-PERI Drizzle",
+      "price" : 115,
+      "stock" :15
+    }
+     
+  }
+}
